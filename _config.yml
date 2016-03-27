@@ -1,0 +1,39 @@
+# Site settings
+title: John Adrian Cando
+description: 'Polyglot Software Engineer'
+url: 'http://godhand1607.github.io'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'John Adrian Cando'
+  email: jamcando@gmail.com
+#  twitter_username: 
+#  facebook_username: 
+  github_username:  godhand1607
+  linkedin_username:  john-adrian-cando-psm-i-9a89a231
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
