@@ -1,10 +1,10 @@
-# godhand1607 | John Adrian Cando
+# godhand1607
 
 My portfolio site -- https://godhand1607.github.io
 
 ### Notes
 
-* More notes here
+* *More notes here*
 
 ---
 
@@ -20,4 +20,4 @@ My portfolio site -- https://godhand1607.github.io
 
 ### Thanks
 
-* Include credits here
+* *Include credits here*
